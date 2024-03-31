@@ -1,4 +1,4 @@
-package study01.servlets;
+package spms.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/member/add")
 @SuppressWarnings("serial")
-public class MemberAddServlet extends HttpServlet {
+public class MemberAddServlet extends HttpServlet{
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -29,5 +29,14 @@ public class MemberAddServlet extends HttpServlet {
 		out.println("</body></html>");
 	}
 
-
 }
+
+
+
+
+
+
+
+
+
+
