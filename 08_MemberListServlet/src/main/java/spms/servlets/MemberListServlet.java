@@ -1,4 +1,4 @@
-package study01.servlets;
+package spms.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
