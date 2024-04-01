@@ -46,7 +46,7 @@ public class MemberListServlet extends HttpServlet{
 			 * MemberList.jsp를 호출하면서 list객체를 전달
 			 * */
 			List<Member> members = new ArrayList<>();
-//			rs = null;	// 예외를 발생시키기 위해서 일부러 null 값 
+			//rs = null;	// 예외를 발생시키기 위해서 일부러 null 값 
 			while(rs.next()) {
 				members.add(new Member()
 								.setNo(rs.getInt("mno"))
